@@ -20,6 +20,12 @@ All models were evaluated over 10–20 episodes on the standard, unwrapped Lunar
 ![Reward Hacking](assets/2_reward_hacking_hover.gif)
 ### 3. Solved with Potential-Based Shaping
 ![Final Landing](assets/3_fixed_reward_landing.gif)
+
+
+
+the codes are written by Gemini 4.0 Argon
+
+
 ## Installation & Usage
 1. Clone the repository and create a virtual environment:
 ```bash
@@ -27,10 +33,9 @@ git clone [https://github.com/YOUR_USERNAME/lunar-lander-reward-shaping.git](htt
 cd lunar-lander-reward-shaping
 
 
-the codes are written by Gemini 4.0 Argon
-
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
 install the required dependencies
 pip install gymnasium[box2d] stable-baselines3 imageio
+
